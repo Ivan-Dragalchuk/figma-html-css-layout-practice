@@ -1,0 +1,444 @@
+body {
+  background: #E0F8F2;
+  line-height: 18px;
+  font-family: "Inter";
+  font-weight: normal;
+}
+
+.button {
+  border: 2px solid #2E2F35;
+  border-radius: 12px;
+  box-shadow: 3px 3px 0px #2E2F35;
+  background: #FF6D2C;
+  transition: .8s;
+}
+
+
+button:hover {
+  transform: scale(1.1);
+}
+
+.wrapper {
+  max-width: 1440px;
+  min-height: 100%;
+  width: 100%;
+  overflow: hidden;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.container {
+  max-width: 1320px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.header{
+  display:flex;
+  flex-direction:column;
+  height: 100vh;
+
+}
+
+/* ---------------------------------------- */
+
+
+.header__top {
+  position: relative;
+  margin: 8px 0 0 0;
+}
+
+.header_bg {
+  position: absolute;
+  top:0;
+  z-index: -1;
+  margin: 10px  0 0;
+  width: 1440px;
+  height: 60px;
+  background: #fff;
+}
+
+.header__top-inner {
+  margin: 30px 0 0 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.container__logo {
+  margin-right: 335px;
+}
+
+.header_top_main-nav {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.header__top-nav {
+  min-width: 390px;
+  justify-content: center;
+  font-size: 14px;
+}
+
+.header__top-nav__list {
+  padding: 18px 0 0 0;
+}
+
+.header__top-user-nav {
+  min-width: 310px;
+  padding: 0 0 0 20px;
+}
+
+.header__top-nav__list--items {
+  font-size: 15px;
+  color: #222222;
+  display: inline-flex;
+  margin: 0 20px 0 0;
+}
+
+.header__top-btn {
+  transition: all .5s;
+}
+
+.header__top-btn:hover {
+  color: #009387;
+}
+
+.header__top-strilka--btn {
+  display: flex;
+  align-items: center;
+}
+
+.strilka {
+  margin: 0 0 0 10px;
+}
+
+.header__top-login {
+  width: 83px;
+  height: 44px;
+  border: 2px solid #2E2F35;
+  border-radius: 12px;
+  box-shadow: 3px 3px 0px #2E2F35;
+  background: #FFFFFF;
+  margin: 0 16px 0 0;
+  transition: .8s ;
+}
+
+.header__top-Create {
+  width: 184px;
+  height: 44px;
+  border: 2px solid #2E2F35;
+  border-radius: 12px;
+  box-shadow: 3px 3px 0px #2E2F35;
+  background: #FF6D2C;
+  color: #FFFFFF;
+  transition: .8s;
+}
+
+
+/* ======================================================== */
+
+
+
+.header__body {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.header__body--main {
+  max-width:778px ;
+  min-width: 705px;
+}
+.container-b {
+  margin:0 0;
+}
+
+
+
+.header__body--h1{
+  margin: 0 0 25px 0 ;
+}
+
+h1{
+  font-family: "Inter" ;
+  font-weight:bold;
+  font-size: 82px;
+  line-height: 96px;
+}
+
+.highlight{
+  font-family: "Covered By Your Grace";
+  color: #009387;
+  font-weight: normal;
+}
+
+.header__body--t{
+  max-width:555px;
+  color:#58595D;
+
+}
+
+.header__body--inner {
+  display:flex;
+
+  line-height:34px;
+  font-size: 20px;
+  font-weight: 500 ;
+}
+
+.header__body--buttonraiting {
+  display:flex;
+  align-items: center;
+  margin: 48px 0 0 0;
+}
+.buttonraiting__btn {
+  margin: 0 40px 0 0;
+}
+
+.buttonraiting__raiting {
+  display: flex;
+  flex-direction: column;
+  align-items: space-around;
+}
+
+.button-risk{
+  color:white;
+  width: 230px;
+  height: 50px;
+}
+
+.five-star {
+  padding:  0 0 0  0;
+  line-height: 24px;
+  display:flex;
+  justify-content: space-between;
+  align-items: end;
+}
+
+.buttonraiting__raiting--span {
+  line-height:24px;
+  color:#2E2F35;
+  font-size: 16px;
+}
+.header__body--image {
+  min-width: 630px;
+  position:relative;
+}
+.header__body-- {
+  position: absolute;
+}
+
+.header__body--rat{
+  z-index: 1;
+}
+
+
+
+/* =============================================================================== */
+
+
+.DTC-brands__inner {
+  background: #fff;
+}
+.DTC-brands__text {
+  min-width: 580px;
+  font-size: 63px;
+  letter-spacing: -2px;
+  line-height: 72px;
+  color: #2E2F35;
+  text-align: center;
+  padding: 106px 0 52px 0 ;
+}
+.DTC-brands__text--span {
+  font-family: 'Covered By Your Grace';
+  color: #009387;
+}
+.DTC-brands__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr .6fr;
+  justify-items: center;
+  align-items: center;
+}
+
+/* =============================================================================== */
+
+
+
+.direct-mail {
+  background: #F3FAFA;
+}
+.direct-mail__inner {
+  padding: 0 208px 100px 208px;
+}
+.direct-mail__title {
+  /* min-width: 580px; */
+  font-size: 63px;
+  letter-spacing: -2px;
+  line-height: 76px;
+  color: #2E2F35;
+  text-align: center;
+  padding: 106px 0 52px 0 ;
+}
+
+.works {
+  font-family: 'Covered By Your Grace';
+  color: #009387;
+  font-size: 90px;
+}
+.direct-mail__statistics {
+  display: flex;
+  justify-content: space-between;
+  align-self: start;
+}
+.direct-mail__statistics--28X {
+}
+.a28X__title, .a17days__title {
+  /* min-width: 580px; */
+  font-size: 63px;
+  letter-spacing: -2px;
+  line-height: 76px;
+  color: #2E2F35;
+  text-align: center;
+  
+}
+
+.direct-mail__statistics--tab {
+}
+
+.direct-mail__statistics--17days {
+}
+
+.a17days__text, .tab__text, .a28X__text {
+  color: #58595D;
+  font-weight: medium;
+  font-size: 14px;
+  letter-spacing: 0px;
+  line-height: 22px;
+  text-align: center;
+}
+
+
+
+/* =============================================================================== */
+
+
+.PostPilot {
+}
+.PostPilot__inner {
+  padding: 0 75px;
+  background: #FDF3EA;
+}
+.PostPilot__title {
+  display: block;
+  align-self: center;
+
+  font-size: 70px;
+  letter-spacing: -2px;
+  line-height: 76px;
+  color: #2E2F35;
+  text-align: center;
+  padding: 86px 0 208px 0;
+}
+.cinch{
+  font-family: 'Covered By Your Grace';
+  color: #009387;
+  font-size: 90px;
+}
+
+
+.PostPilot__powerful {
+  grid-area: powerful;
+}
+
+.PostPilot__fight-back {
+  grid-area: fight;
+}
+
+.PostPilot__done-for-you {
+  grid-area: done;
+}
+
+
+.PostPilot__main {
+  display: grid;
+
+
+  grid-template-columns: 1fr 1fr;
+
+  grid-template-areas:
+    "powerful ."
+    ". fight"
+    "done .";
+
+  gap: 120px 80px;
+}
+
+
+.powerful__title {
+  align-self: center;
+  font-size: 60px;
+  letter-spacing: -4px;
+  line-height: 70px;
+  color: #2E2F35;
+  max-width: 290px;
+}
+.oo{
+  font-family: 'Covered By Your Grace';
+  color: #009387;
+  font-size: 80px;
+}
+.powerful__text {
+  align-self: center;
+  font-weight: medium;
+  font-size: 20px;
+  letter-spacing: 0px;
+  line-height: 34px;
+  color: #58595D;
+  max-width: 500px;
+  margin: 31px 0 48px 0;
+  
+}
+.PostPilot__reviews {
+  max-width: 490px;
+  border: 2px solid #D1C7BE;
+  border-radius: 15px;
+  padding: 34px;
+  position: relative;
+}
+.quote-icon {
+  position: absolute;
+  bottom: 150px;
+}
+.PostPilot__reviews--text {
+  color: #58595D;
+  font-weight: medium;
+  font-size: 16px;
+  letter-spacing: 0px;
+  line-height: 30px;
+  font-style: italic;
+}
+.full__name-icon {
+  padding-top: 16px;
+  display: flex;
+  justify-content: space-between;
+}
+.full-name {
+  color: #A89B90;
+  font-weight: medium;
+  font-size: 14px;
+  letter-spacing: 0px;
+  line-height: 22px;
+
+
+}
+.obvi {
+}
+.PostPilot__fight-back {
+}
+.PostPilot__done-for-you {
+}
+
