@@ -294,8 +294,6 @@ h1{
   justify-content: space-between;
   align-self: start;
 }
-.direct-mail__statistics--28X {
-}
 .a28X__title, .a17days__title {
   /* min-width: 580px; */
   font-size: 63px;
@@ -304,12 +302,6 @@ h1{
   color: #2E2F35;
   text-align: center;
   
-}
-
-.direct-mail__statistics--tab {
-}
-
-.direct-mail__statistics--17days {
 }
 
 .a17days__text, .tab__text, .a28X__text {
@@ -326,16 +318,14 @@ h1{
 /* =============================================================================== */
 
 
-.PostPilot {
-}
 .PostPilot__inner {
-  padding: 0 75px;
+  padding: 0 75px 111px;
   background: #FDF3EA;
 }
 .PostPilot__title {
   display: block;
   align-self: center;
-
+  
   font-size: 70px;
   letter-spacing: -2px;
   line-height: 76px;
@@ -365,15 +355,15 @@ h1{
 
 .PostPilot__main {
   display: grid;
-
-
+  
+  
   grid-template-columns: 1fr 1fr;
-
+  
   grid-template-areas:
-    "powerful ."
-    ". fight"
-    "done .";
-
+  "powerful ."
+  ". fight"
+  "done .";
+  
   gap: 120px 80px;
 }
 
@@ -442,8 +432,6 @@ h1{
   font-size: 14px;
   letter-spacing: 0px;
   line-height: 22px;
-
-
 }
 .button-f {
   margin: 48px 0 0 0;
@@ -454,8 +442,68 @@ h1{
   font-size: 13px;
   letter-spacing: 1.2px;
 }
-.PostPilot__fight-back {
+
+/* =============================================================================== */
+
+
+.Everything {
 }
-.PostPilot__done-for-you {
+.Everything__inner {
+  background: #fff;
+  padding: 0 75px;
+  
+}
+.Everything__title {
+  display: block;
+  
+  font-size: 64px;
+  letter-spacing: -2px;
+  line-height: 76px;
+  color: #2E2F35;
+  text-align: center;
+  padding: 96px 0 64px 0;
+}
+.Everything__main {
+  display: grid;
+  
+  
+  grid-template-columns: 1fr 1fr 1fr;
+  
+  grid-template-areas:
+  ". . ."
+  ". . ."
+  ". . .";
+
+  gap: 30px 30px;
 }
 
+.Everything__selection {
+  border-radius: 12px;
+  justify-content: center;
+  height: 510px;
+}
+.Everything__plug-and-play {
+  background: #FDF3EA;
+}
+.Everything__selection--img {
+
+}
+.Everything__selection--title {
+}
+.Everything__selection--text {
+}
+.Everything__autopilot {
+  background: #E0F8F2;
+}
+.Everything__real-time {
+  background: #EEECFF;
+}
+.Everything__deliver-wow {
+  background: #D9F2F7;
+}
+.Everything__predictable-pricing {
+  background: #FAEDED;
+}
+.Everything__complimentary {
+  background: #F1F1F1;
+}
