@@ -255,6 +255,7 @@ h1{
 .DTC-brands__text--span {
   font-family: 'Covered By Your Grace';
   color: #009387;
+  font-weight: normal;
 }
 .DTC-brands__grid {
   display: grid;
@@ -282,12 +283,14 @@ h1{
   color: #2E2F35;
   text-align: center;
   padding: 106px 0 52px 0 ;
+  font-weight:bold;
 }
 
 .works {
   font-family: 'Covered By Your Grace';
   color: #009387;
   font-size: 90px;
+  font-weight: normal;
 }
 .direct-mail__statistics {
   display: flex;
@@ -301,7 +304,7 @@ h1{
   line-height: 76px;
   color: #2E2F35;
   text-align: center;
-  
+  font-weight:bold;
 }
 
 .a17days__text, .tab__text, .a28X__text {
@@ -332,11 +335,13 @@ h1{
   color: #2E2F35;
   text-align: center;
   padding: 86px 0 208px 0;
+  font-weight:bold;
 }
 .cinch{
   font-family: 'Covered By Your Grace';
   color: #009387;
   font-size: 90px;
+  font-weight: normal;
 }
 
 
@@ -375,9 +380,11 @@ h1{
   line-height: 70px;
   color: #2E2F35;
   max-width: 290px;
+  font-weight:bold;
 }
 .powerful__title-2 {
   max-width: 550px;
+  font-weight:bold;
 }
 
 .oo{
@@ -385,6 +392,7 @@ h1{
   color: #009387;
   font-size: 80px;
   letter-spacing: 0px;
+  font-weight: normal;
 }
 .powerful__text {
   align-self: center;
@@ -462,6 +470,7 @@ h1{
   color: #2E2F35;
   text-align: center;
   padding: 96px 0 64px 0;
+  font-weight: bold;
 }
 .Everything__main {
   display: grid;
@@ -478,6 +487,10 @@ h1{
 }
 
 .Everything__selection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   border-radius: 12px;
   justify-content: center;
   height: 510px;
@@ -486,11 +499,23 @@ h1{
   background: #FDF3EA;
 }
 .Everything__selection--img {
-
+  margin: 0 0 48px 0;
 }
 .Everything__selection--title {
+  padding: 0 0 8px 0;
+  font-weight: bold;
+  font-size: 28px;
+  letter-spacing: 0px;
+  line-height: 36px;
+  color: #2E2F35;
+  text-align: center;
 }
 .Everything__selection--text {
+  font-size: 16px;
+  letter-spacing: 0px;
+  line-height: 30px;
+  color: #58595D;
+  text-align: center;
 }
 .Everything__autopilot {
   background: #E0F8F2;
