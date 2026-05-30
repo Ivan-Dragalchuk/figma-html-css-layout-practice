@@ -482,8 +482,9 @@ h1{
   ". . ."
   ". . ."
   ". . .";
-
+  
   gap: 30px 30px;
+  padding: 0 0 96px 0;
 }
 
 .Everything__selection {
@@ -531,4 +532,89 @@ h1{
 }
 .Everything__complimentary {
   background: #F1F1F1;
+}
+
+
+/* =============================================================================== */
+
+
+.Fast-launch {
+  background: #E3F8F8;
+}
+.Fast-launch__inner {
+  padding: 96px 75px;
+}
+.Fast-launch__title {
+  font-weight: bold;
+  font-size: 60px;
+  letter-spacing: -2px;
+  line-height: 76px;
+  color: #2E2F35;
+  text-align: center;
+}
+.Fast-launch__main {
+  padding-right: 745px;
+}
+.Fast-launch__default--section {
+  display: flex;
+    margin: 0 0 32px 0 ;
+}
+.default__section--number, .selected__section--number {
+  font-family: 'Covered By Your Grace';
+  color: #009387 ;
+  font-size: 48px;
+  letter-spacing: 4px;
+  line-height: 50px;
+  opacity: 0.4;
+  font-weight: normal;
+  margin-right: 90px;
+  min-width: 46px;
+}
+.default__section--title, .selected__section--title {
+  font-weight: bold;
+  font-size: 36px;
+  letter-spacing: -0.5px;
+  line-height: 40px;
+  color: #2E2F35;
+  opacity: 0.4;
+  text-align: center;
+}
+.selected__section {
+  display: flex;
+  position: relative;
+}
+.selected__section::before {
+  content: "";
+  border: 1px solid #A0CDCD;
+  height: 96px;
+  position: absolute;
+  left: 15px;
+  top: 50px;
+}
+
+.selected__section::after {
+  content: "";
+  border: 1px solid #2E2F35;
+  height: 40px;
+  position: absolute;
+  left: 15px;
+  top: 50px;
+}
+
+.selected__section--title {
+  opacity: 1;
+}
+.selected__section--number {
+  opacity: 1;
+}
+.Fast-launch__selected--section {
+  margin: 0 0 32px 0 ;
+}
+.selected__section--text {
+  padding: 0 0 0 138px;
+  font-weight: medium;
+  font-size: 18px;
+  letter-spacing: 0px;
+  line-height: 34px;
+  color: #58595D;
 }
