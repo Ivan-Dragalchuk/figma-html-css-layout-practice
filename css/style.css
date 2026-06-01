@@ -12,7 +12,20 @@ body {
   background: #FF6D2C;
   transition: .8s;
 }
-
+.button-risk {
+  margin: 48px 0 0 0;
+  width: 230px;
+  height: 50px;
+  color: #fff;
+  line-height: 20px;
+  font-size: 13px;
+  letter-spacing: 1.2px;
+  border: 2px solid #2E2F35;
+  border-radius: 12px;
+  box-shadow: 3px 3px 0px #2E2F35;
+  background: #FF6D2C;
+  transition: .8s;
+}
 
 button:hover {
   transform: scale(1.1);
@@ -454,8 +467,6 @@ h1{
 /* =============================================================================== */
 
 
-.Everything {
-}
 .Everything__inner {
   background: #fff;
   padding: 0 75px;
@@ -557,7 +568,7 @@ h1{
 }
 .Fast-launch__default--section {
   display: flex;
-    margin: 0 0 32px 0 ;
+  margin: 0 0 32px 0 ;
 }
 .default__section--number, .selected__section--number {
   font-family: 'Covered By Your Grace';
@@ -617,4 +628,93 @@ h1{
   letter-spacing: 0px;
   line-height: 34px;
   color: #58595D;
+}
+
+
+/* =============================================================================== */
+
+
+
+.PostPilot-reviews {
+  background: #fff;
+  padding: 95px 0 0 0;
+}
+.PostPilot-reviews__inner {
+  overflow: hidden;
+}
+.PostPilot-reviews__title {
+  font-weight: bold;
+  font-size: 63px;
+  letter-spacing: -2px;
+  line-height: 76px;
+  color: #2E2F35;
+  text-align: center;
+}
+.ooo {
+  font-family: 'Covered By Your Grace';
+  font-size: 63px;
+  letter-spacing: -2px;
+  line-height: 76px;
+  color: #009387;
+  text-align: center;
+
+}
+.PostPilot-reviews__main {
+  margin: 74px 0 64px 0;
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+}
+.PostPilot-reviews__main--name {
+  margin-right: 32px;
+  width: 410px;
+  padding: 34px;
+  border: 2px solid #2E2F35;
+  border-radius: 15px;
+}
+.name__header--icon-nickname-wrapper {
+  display: flex;
+  align-items: center;
+}
+.name__header {
+  display: flex;
+  padding: 0 0 16px 0;
+  justify-content: space-between;
+  align-items: center;
+}
+.name__header--icon {
+  margin: 0 16px 0 0;
+}
+.name__header--nickname {
+}
+.name__header--name {
+  font-weight: medium;
+  font-size: 15px;
+  letter-spacing: 0px;
+  line-height: 18px;
+  color: #2E2F35;
+}
+.name__header--username {
+  font-weight: medium;
+  font-size: 14px;
+  letter-spacing: 0px;
+  line-height: 22px;
+  color: #58595D;
+  }
+
+.name__header--twitter {
+}
+.name__text {
+  font-weight: medium;
+  font-size: 16px;
+  letter-spacing: 0px;
+  line-height: 30px;
+  color: #58595D;
+}
+.bold {
+  font-weight: bold;
+}
+.button__wrapper {
+  display: flex;
+  justify-content: center;
 }
