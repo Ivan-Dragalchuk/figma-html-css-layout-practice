@@ -854,3 +854,37 @@ h1{
   display: block;
   padding: 0 48px 0 0;
 }
+
+
+/* =============================================================================== */
+
+
+.Latest-trends {
+  background: #F3FAFA;
+}
+.Latest-trends__inner {
+  padding: 75px;
+}
+.Latest-trends__title {
+  font-weight: bold;
+  font-size: 68px;
+  letter-spacing: -2px;
+  line-height: 76px;
+  align-self: center;
+  color: #2E2F35;
+  padding: 0 0 74px 0 ;
+}
+.Latest-trends__main {
+  display: flex;
+}
+.Latest-trends__img-text-wrapper {
+}
+.Latest-trends__img {
+}
+.Latest-trends__txt {
+  font-weight: bold;
+  font-size: 28px;
+  letter-spacing: 0px;
+  line-height: 36px;
+  color: #2E2F35;
+}
